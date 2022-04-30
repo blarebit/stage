@@ -1,0 +1,44 @@
+# General.
+baseURL = 'https://blarebit.io'
+title = 'Blarebit'
+languageCode = 'en-us'
+
+# Body.
+theme = "Hugo-Octopress"
+paginate = 5
+
+[permalinks]
+posts = "/blog/:year-:month-:day-:title/"
+
+[params]
+  subtitle = "Open Source DevOps Tools, Utilities, and Libraries!"
+  searchEngineURL = "https://www.google.com/search"
+
+  sidebarMenuEnabled = true
+  sidebarRecentLimit = 5
+
+  # Links.
+  github = "https://github.com/blarebit"
+  twitter = "https://twitter.com/blarebit"
+  instagram = "https://instagram.com/blarebit"
+
+  rss = true
+
+  disableReadingTime = false
+  disableGoogleFonts = false
+
+# Top menu.
+[[menu.main]]
+  Name = "Blog"
+  URL = "/"
+  weight = -5
+
+[[menu.main]]
+  Name = "Projects"
+  URL = "https://github.com/blarebit"
+  weight = -5
+
+[[menu.main]]
+  Name = "Contact"
+  URL = "mailto:info@blarebit.io"
+
