@@ -2,7 +2,7 @@
 title: "Running Minio Cluster in Three Different Nodes"
 date: 2021-01-21
 categories: ["Storage", "Minio"]
-draft: false
+draft: true
 ---
 # How to Run Minio in Different Nodes with Docker
 
